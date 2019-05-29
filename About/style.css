@@ -1,0 +1,49 @@
+body {
+  background: #222629;
+}
+
+.img1, .img2{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  vertical-align: middle;
+  height: 400px;
+  width: 400px;
+  margin-bottom: 30px;
+}
+
+h2,
+h5,
+p {
+  color: white;
+}
+.p2 {
+  word-spacing: 10px;
+}
+h2, h5 {
+    margin-left:4%;
+    font-size:200%;
+}
+.imgLogo {
+  width: 80px;
+  height: 50px;
+  padding-right: 3%;
+  text-align: center;
+}
+.footer {
+  margin-top: 4%;
+  color: white;
+  opacity: 0.75;
+  text-align: center;
+  -webkit-letter-spacing: 0.2rem;
+  -moz-letter-spacing: 0.2rem;
+  -ms-letter-spacing: 0.2rem;
+  letter-spacing: 0.2rem;
+  font-size: 0.6rem;
+  opacity: 0.75;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+.container {
+    margin-top: 5%;
+}

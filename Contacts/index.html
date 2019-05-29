@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact Us</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a href="../index.html" class="navbar-brand">
+            <img src="../images/logo.png" class="imgLogo" />Magic Point Decoration L.C.C</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="justify-content-end collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-sm-5">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../About/index.html">About <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../Projects/index.html">Projects <span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../Gallery/index.html">Gallery <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/index.html">Contact Us <span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="container">
+        <div class="row box1">
+            <div class="col-7">
+                <p>Magic Point Decoration L.L.C<br /><br />Office 1814 Burj Khalifa - Metropolis Tower<br />P.O.Box
+                    76517 Dubai U.A.E<br /></p>
+            </div>
+            <div class="col col1">
+                <p><a href="tel:+971553801994">Phone: +971553801994</a></p>
+                <a href="mailto:inquiry@magicpoint.ae">
+                    <p>Email: inquiry@magicpoint.ae</p>
+                </a>
+                <ul class="icons">
+                    <li><a target="_blank" href="https://api.whatsapp.com/send?phone=971553801994"
+                            class="icon fa-whatsapp"><span class="label">Twitter</span></a></li>
+                    <li><a target="_blank" href="https://www.pinterest.com/MagicPointDecoration09/"
+                            class="icon fa-pinterest"><span class="label">Facebook</span></a></li>
+                    <li><a href="tel:+971553801994" class="icon fa-phone"><span class="label">Github</span></a></li>
+                    <li><a target="_blank" href="https://www.instagram.com/the.3.eye/?hl=en"
+                            class="icon fa-instagram"><span class="label">Dribbble</span></a></li>
+                    <li><a href="mailto:inquiry@magicpoint.ae" class="icon fa-envelope"><span
+                                class="label">Email</span></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-7">
+                <div class="mapouter">
+                    <div class="gmap_canvas"><iframe width="100%" height="100%" id="gmap_canvas"
+                            src="https://maps.google.com/maps?q=Metropolis%20Tower&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>Google Maps
+                        Generator by</div>
+                    <style>
+                        .mapouter {
+                            position: relative;
+                            text-align: right;
+                            height: 70vh;
+                            width: 100%;
+                        }
+
+                        .gmap_canvas {
+                            overflow: hidden;
+                            background: none !important;
+                            height: 70vh;
+                            width: 100%;
+                        }
+                    </style>
+                </div>
+            </div>
+            <div class="col box2">
+                <form class="form" action="https://formspree.io/abu.hawrra@gmail.com" method="POST">
+                    <div class="form-group">
+                        <label for="exampleForm.ControlInput1" class="form-label">First
+                            Name</label>
+                            <textarea name="firstName" rows="1" placeholder="First Name" required=""
+                            id="exampleForm.ControlInput1" class="form-control"></textarea>
+                            <br />
+                        <label for="exampleForm.ControlInput1" class="form-label">Last Name</label>
+                        <textarea
+                            name="lastName" rows="1" placeholder="Last Name" required="" id="exampleForm.ControlInput1"
+                            class="form-control"></textarea>
+                            <br />
+                        <label for="exampleForm.ControlInput1" class="form-label">Phone Number</label>
+                        <input type="tel"
+                            name="phoneNumber" rows="1" placeholder="Phone Number" value="" required=""
+                            pattern="[0-9]{10}" id="exampleForm.ControlInput1" class="form-control" />
+                            <br />
+                        <label for="exampleForm.ControlInput1" class="form-label">Email address</label>
+                        <input
+                            type="email" name="email" placeholder="name@example.com" value="" required=""
+                            id="exampleForm.ControlInput1" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleForm.ControlTextarea1"
+                            class="form-label">Message</label>
+                            <textarea name="message" rows="6" required=""
+                            id="exampleForm.ControlTextarea1" class="form-control"></textarea>
+                        </div>
+                    <button type="submit" class="btn btn-light">Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <footer id="footer">
+            <p>© Hussain Marzooq.</p>
+        </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
