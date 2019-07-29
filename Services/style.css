@@ -1,0 +1,135 @@
+body {
+  background: #222629;
+}
+
+.img1, .img2{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  vertical-align: middle;
+  height: 400px;
+  width: 400px;
+  margin-bottom: 30px;
+}
+
+h2,
+h5,
+p {
+  color: white;
+  text-align: center;
+}
+li {
+  list-style: none;
+}
+.servicesList {
+  text-align: center;
+  padding-right: 13%;
+}
+.card-title, .card-text {
+  color: black;
+  text-align: center;
+}
+.card {
+  box-shadow: 10px 10px black, -10px -10px black;
+}
+.card:hover {
+  -webkit-box-shadow: 0px 0px 123px 17px rgba(255,255,255,0.75);
+-moz-box-shadow: 0px 0px 123px 17px rgba(255,255,255,0.75);
+box-shadow: 0px 0px 123px 17px rgba(255,255,255,0.75);
+
+}
+
+.ourServices {
+  text-align: center;
+  font-family: cursive;
+  font-size: 400%;
+  margin-top: -4%;
+}
+.p2 {
+  word-spacing: 10px;
+}
+h2, h5 {
+    margin-left:4%;
+    font-size:200%;
+}
+.imgLogo {
+  width: 80px;
+  height: 50px;
+  padding-right: 3%;
+  text-align: center;
+}
+#footer {
+  margin-top: 4%;
+  color: white;
+  opacity: 0.5;
+  text-align: center;
+  -webkit-letter-spacing: 0.2rem;
+  -moz-letter-spacing: 0.2rem;
+  -ms-letter-spacing: 0.2rem;
+  letter-spacing: 0.2rem;
+  font-size: 0.6rem;
+  opacity: 0.75;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+#footer .copyright {
+  letter-spacing: 0.2rem;
+  font-size: 0.6rem;
+  opacity: 0.75;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+#footer a {
+  color: inherit;
+}
+.container {
+    margin-top: 5%;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding-left: 182px;
+  }
+  .col-7 {
+    margin-left: 30px;
+  }
+  p, h2, h5 {
+    text-align: center;
+  }
+  .p2 {
+    word-spacing: 0;
+    padding-right: 145px;
+  }
+  h2 {
+    margin-left: -30%;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .container {
+    padding-left: 0;
+  }
+  .img2, .img1 {
+    height: 300px;
+    width: 300px;
+    margin-left: 9%;
+  }
+  .img1 {
+    margin-left: 17%;
+  }
+  .col-7 {
+    margin-left: 80px;
+  }
+  p, h2, h5 {
+    text-align: center;
+  }
+  .p2 {
+    word-spacing: 0;
+    padding-right: 49px;
+    padding-left: 50px;
+  }
+  h2 {
+    margin-left: 0;
+  }
+}
+
