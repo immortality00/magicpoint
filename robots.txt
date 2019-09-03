@@ -1,0 +1,10 @@
+User-agent: Googlebot
+Disallow: /.gitignore
+Disallow: /.gitattributes
+
+sitemap: http://www.magicpoint.ae/sitemap.xml
+sitemap: http://www.magicpoint.ae/images_sitemap.xml
+
+User-agent: *
+Disallow: /.gitignore
+Disallow: /.gitattributes
