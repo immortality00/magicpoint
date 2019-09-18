@@ -1,82 +1,105 @@
 body {
-  background: #222629;
+    background: #222629
 }
 
 p {
-  color: white;
-  text-align: center;
+    color: #fff;
+    text-align: center
 }
 
 h2,
 h5 {
-  margin-left: 4%;
-  font-size: 200%;
+    margin-left: 4%;
+    font-size: 200%
 }
+
 .imgLogo {
-  width: 80px;
-  height: 50px;
-  padding-right: 3%;
-  text-align: center;
+    width: 80px;
+    height: 50px;
+    padding-right: 3%;
+    text-align: center
 }
 
 #footer {
-  margin-top: 1%;
-  color: white;
-  opacity: 0.5;
-  text-align: center;
-  -webkit-letter-spacing: 0.2rem;
-  -moz-letter-spacing: 0.2rem;
-  -ms-letter-spacing: 0.2rem;
-  letter-spacing: 0.2rem;
-  font-size: 0.6rem;
-  opacity: 0.75;
-  margin-bottom: 0;
-  text-transform: uppercase;
-}
-#footer .copyright {
-  letter-spacing: 0.2rem;
-  font-size: 0.6rem;
-  opacity: 0.75;
-  margin-bottom: 0;
-  text-transform: uppercase;
-}
-#footer a {
-  color: inherit;
-}
-.container {
-  margin-top: 2%;
+    margin-top: 1%;
+    color: #fff;
+    opacity: .5;
+    text-align: center;
+    -webkit-letter-spacing: .2rem;
+    -moz-letter-spacing: .2rem;
+    -ms-letter-spacing: .2rem;
+    letter-spacing: .2rem;
+    font-size: .6rem;
+    opacity: .75;
+    margin-bottom: 0;
+    text-transform: uppercase
 }
 
-.carousel-control-prev,
-.carousel-control-next {
-  width: 8%;
+#footer .copyright {
+    letter-spacing: .2rem;
+    font-size: .6rem;
+    opacity: .75;
+    margin-bottom: 0;
+    text-transform: uppercase
+}
+
+#footer a {
+    color: inherit
+}
+
+.container {
+    margin-top: 2%
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    width: 8%
 }
 
 .carousel-item img {
-  position: relative;
-  background-color: #fefefe;
-  padding: 0;
-  width: 90%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  max-width: 1200px;
-  margin-left: 13%;
-  margin-top: 2%;
+    position: relative;
+    background-color: #fefefe;
+    padding: 0;
+    width: 75%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19);
+    margin-left: 13%;
+    margin-top: 2%
 }
 
 .btn {
-  margin-left: 13%;
-  margin-top: 1%;
+    margin-left: 13%;
+    margin-top: 1%
 }
 
-@media screen and (max-width: 375px) {
-  .navbar-brand {
-    font-size: 15px;
-  }
-  .btn {
-    margin-top: 2%;
-    margin-bottom: 2%;
-  }
-  .carousel-item img {
-    width: 75%;
-  }
+@media screen and (max-width:475px) {
+    .navbar-brand {
+        font-size: 1rem
+    }
+
+    .btn {
+        margin-top: 2%;
+        margin-bottom: 2%
+    }
+
+    .carousel-item img {
+        width: 75%
+    }
+}
+@media screen and (max-width:385px) {
+    
+    .navbar-brand {
+        font-size: 13px
+    }
+   
+}
+
+@media screen and (max-width:350px) {
+    
+    .navbar-brand {
+        font-size: 11px
+    }
+    .navbar-toggler-icon {
+        width: 1em;
+    }
+   
 }

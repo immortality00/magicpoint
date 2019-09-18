@@ -1,225 +1,273 @@
 body {
-  background: #222629;
+    background: #222629
 }
 
 .img1,
 .img2 {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  vertical-align: middle;
-  height: 400px;
-  width: 400px;
-  margin-bottom: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    vertical-align: middle;
+    height: 400px;
+    width: 400px;
+    margin-bottom: 30px
 }
 
 h2,
 h5,
 p {
-  color: white;
-  text-align: center;
+    color: #fff;
+    text-align: center
 }
 
 .clients {
-  height: 200px;
-  width: 200px;
-  padding-right: 1%;
-  padding-bottom: 1%;
-  margin-left: 1%;
+    height: 200px;
+    width: 200px;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    margin-left: 1%
 }
 
 .clients:hover {
-  -webkit-box-shadow: 10px 0px 84px 8px rgba(250, 245, 250, 1);
-  -moz-box-shadow: 10px 0px 84px 8px rgba(250, 245, 250, 1);
-  box-shadow: 10px 0px 84px 8px rgba(250, 245, 250, 1);
-  ;
+    -webkit-box-shadow: 10px 0 84px 8px rgba(250, 245, 250, 1);
+    -moz-box-shadow: 10px 0 84px 8px rgba(250, 245, 250, 1);
+    box-shadow: 10px 0 84px 8px rgba(250, 245, 250, 1)
 }
 
 li {
-  list-style: none;
+    list-style: none
 }
 
 .servicesList {
-  text-align: center;
-  padding-right: 13%;
+    text-align: center;
+    padding-right: 13%
 }
 
-.card-title,
-.card-text {
-  color: black;
-  text-align: center;
+.card-text,
+.card-title {
+    color: #000;
+    text-align: center
 }
 
 .card {
-  box-shadow: 10px 10px black, -10px -10px black;
+    box-shadow: 10px 10px #000, -10px -10px #000
 }
 
 .card:hover {
-  -webkit-box-shadow: 0px 0px 123px 17px rgba(255, 255, 255, 0.75);
-  -moz-box-shadow: 0px 0px 123px 17px rgba(255, 255, 255, 0.75);
-  box-shadow: 0px 0px 123px 17px rgba(255, 255, 255, 0.75);
-
+    -webkit-box-shadow: 0 0 123px 17px rgba(255, 255, 255, .75);
+    -moz-box-shadow: 0 0 123px 17px rgba(255, 255, 255, .75);
+    box-shadow: 0 0 123px 17px rgba(255, 255, 255, .75)
 }
 
 .ourServices {
-  text-align: center;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 400%;
-  margin-top: -4%;
-  border-top: 2px solid white;
-  border-bottom: 2px solid white;
-  padding-top: 1%;
-  padding-bottom: 1%;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 400%;
+    margin-top: -4%;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    padding-top: 1%;
+    padding-bottom: 1%
 }
 
 .ourClients {
-  text-align: center;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 300%;
-  margin-top: -3%;
-  border-top: 2px solid white;
-  border-bottom: 2px solid white;
-  padding-top: 1%;
-  padding-bottom: 1%;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 300%;
+    margin-top: -3%;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    padding-top: 1%;
+    padding-bottom: 1%
 }
 
 .p2 {
-  word-spacing: 10px;
+    word-spacing: 10px
 }
 
 h2,
 h5 {
-  margin-left: 4%;
-  font-size: 200%;
+    margin-left: 4%;
+    font-size: 200%
 }
 
 .imgLogo {
-  width: 80px;
-  height: 50px;
-  padding-right: 3%;
-  text-align: center;
+    width: 80px;
+    height: 50px;
+    padding-right: 3%;
+    text-align: center
 }
 
 #footer {
-  margin-top: 4%;
-  color: white;
-  opacity: 0.5;
-  text-align: center;
-  -webkit-letter-spacing: 0.2rem;
-  -moz-letter-spacing: 0.2rem;
-  -ms-letter-spacing: 0.2rem;
-  letter-spacing: 0.2rem;
-  font-size: 0.6rem;
-  opacity: 0.75;
-  margin-bottom: 0;
-  text-transform: uppercase;
+    margin-top: 4%;
+    color: #fff;
+    opacity: .5;
+    text-align: center;
+    -webkit-letter-spacing: .2rem;
+    -moz-letter-spacing: .2rem;
+    -ms-letter-spacing: .2rem;
+    letter-spacing: .2rem;
+    font-size: .6rem;
+    opacity: .75;
+    margin-bottom: 0;
+    text-transform: uppercase
 }
 
 #footer .copyright {
-  letter-spacing: 0.2rem;
-  font-size: 0.6rem;
-  opacity: 0.75;
-  margin-bottom: 0;
-  text-transform: uppercase;
+    letter-spacing: .2rem;
+    font-size: .6rem;
+    opacity: .75;
+    margin-bottom: 0;
+    text-transform: uppercase
 }
 
 #footer a {
-  color: inherit;
+    color: inherit
 }
 
 .container {
-  margin-top: 5%;
+    margin-top: 5%
 }
 
-@media screen and (max-width: 768px) {
-  .container {
-    padding-left: 182px;
-  }
 
-  .col-7 {
-    margin-left: 30px;
-  }
+@media screen and (max-width: 980px) {
+    .ourServices {
+        font-size: 300%;
+    }
+    .ourClients {
+        font-size: 250%;
+    }
+    h5 {
+        font-size: 160%;
+    }
+    .card-deck {
+        margin-left: -10%;
+        width: 120%;
+    }
+    .row {
+        display: contents;
+    }
+    .clients {
+        height: 150px;
+        width: 150px;
+        margin-right: 1%;
+    }
+}
+@media screen and (max-width: 930px) {
+    .ourServices {
+        font-size: 300%;
+    }
+    .ourClients {
+        font-size: 250%;
+    }
+    h5 {
+        font-size: 160%;
+    }
+    .card-deck {
+        margin-right: 0;
+        margin-left: -89px;
+        width: 130%;
+    }
+    .row {
+        display: contents;
+    }
+    .clients {
+        height: 150px;
+        width: 150px;
+        margin-right: 1%;
+    }
+}
+@media screen and (max-width:768px) {
+    .ourServices {
+        font-size: 250%;
+    }
 
-  p,
-  h2,
-  h5 {
-    text-align: center;
-  }
+    .col-7 {
+        margin-left: 30px
+    }
+    .card-deck {
+        margin-left: -102px;
+        width: 140%;
+    }
+    h2,
+    h5,
+    p {
+        text-align: center
+    }
 
-  .p2 {
-    word-spacing: 0;
-    padding-right: 145px;
-  }
-
-  h2 {
-    margin-left: -30%;
-  }
+    .p2 {
+        word-spacing: 0;
+        padding-right: 145px
+    }
+    h5 {
+        font-size: 140%;
+    }
 }
 
-@media screen and (max-width: 414px) {
-  .container {
-    padding-left: 0;
-  }
+@media screen and (max-width:414px) {
+    .container {
+        padding-left: 0
+    }
 
-  .img2,
-  .img1 {
-    height: 300px;
-    width: 300px;
-    margin-left: 9%;
-  }
+    .img1,
+    .img2 {
+        height: 300px;
+        width: 300px;
+        margin-left: 9%
+    }
 
-  .img1 {
-    margin-left: 17%;
-  }
+    .img1 {
+        margin-left: 17%
+    }
 
-  .col-7 {
-    margin-left: 80px;
-  }
+    .col-7 {
+        margin-left: 80px
+    }
 
-  p,
-  h2,
-  h5 {
-    text-align: center;
-  }
+    h2,
+    h5,
+    p {
+        text-align: center
+    }
 
-  .p2 {
-    word-spacing: 0;
-    padding-right: 49px;
-    padding-left: 50px;
-  }
+    .p2 {
+        word-spacing: 0;
+        padding-right: 49px;
+        padding-left: 50px
+    }
 
-  h2 {
-    margin-left: 0;
-  }
+    h2 {
+        margin-left: 0
+    }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width:375px) {
+    .navbar-brand {
+        font-size: 15px
+    }
 
-  .navbar-brand {
-    font-size: 15px;
-  }
+    .ourServices {
+        font-size: 250%;
+        margin-top: 0
+    }
 
-  .ourServices {
-    font-size: 250%;
-    margin-top: 0%;
-  }
+    h5 {
+        font-size: 150%
+    }
 
-  h5 {
-    font-size: 150%;
-  }
+    .card-deck {
+        padding-left: 12px
+    }
 
-  .card-deck {
-    padding-left: 12px
-  }
+    .ourClients {
+        font-size: 250%
+    }
 
-  .ourClients {
-    font-size: 250%;
-  }
-  .clients {
-    height: 100px;
-    width: 100px;
-    padding-right: 2%;
-    padding-bottom: 3%;
-    margin-left: 4%;
-  }
+    .clients {
+        height: 100px;
+        width: 100px;
+        padding-right: 2%;
+        padding-bottom: 3%;
+        margin-left: 4%
+    }
 }

@@ -1,16 +1,1 @@
-$('.filter a').click(function(e) {
-      e.preventDefault();
-      var a = $(this).attr('href');
-      a = a.substr(1);
-      $('.main a').each(function() {
-        if (!$(this).hasClass(a) && a != 'all')
-          $(this).addClass('hide');
-        else
-          $(this).removeClass('hide');
-      });
-    });
-    $('.main a').click(function(e) {
-      e.preventDefault();
-      var $i = $(this);
-    });
-    
+$(".filter a").click(function(a){a.preventDefault();var t=$(this).attr("href");t=t.substr(1),$(".main a").each(function(){$(this).hasClass(t)||"all"==t?$(this).removeClass("hide"):$(this).addClass("hide")})}),$(".main a").click(function(a){a.preventDefault();$(this)});

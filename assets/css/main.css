@@ -579,15 +579,9 @@ input, select, textarea {
 				opacity: 0;
 			}
 
+
+
 		@media screen and (max-width: 980px) {
-
-			#header .content p br {
-				display: none;
-			}
-
-		}
-
-		@media screen and (max-width: 736px) {
 
 			#header > * {
 				margin-top: 2rem;
@@ -614,6 +608,17 @@ input, select, textarea {
 
 			#header .content p {
 				line-height: 1.875;
+			}
+			#header nav ul {
+				-moz-flex-direction: column;
+				-webkit-flex-direction: column;
+				-ms-flex-direction: column;
+				flex-direction: column;
+				min-width: 10rem;
+				max-width: 100%;
+			}
+			#header nav.use-middle:after {
+				display: none;
 			}
 
 		}
